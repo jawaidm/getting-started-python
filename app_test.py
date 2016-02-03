@@ -11,5 +11,6 @@ class CitiesTestCase(unittest.TestCase):
     self.assertEqual(response.status_code, 200)
     self.assertEqual(response.data, json.dumps(['Amsterdam', 'San Francisco', 'Berlin', 'New York', 'Lahore']))
 
+
 if __name__ == '__main__':
     unittest.main()
